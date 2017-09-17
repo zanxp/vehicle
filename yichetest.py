@@ -32,6 +32,9 @@ def printUnivList(ulist,num):
     for i in range(num):
         u = ulist[i]
         print(tplt.format(u[0],u[1]))
+
+
+        
 def main():
     uinfo =[]
     url = 'http://www.cnev.cn/chexing/jilidihaoEV/canshu.html'
